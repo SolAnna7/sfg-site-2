@@ -37,11 +37,13 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: 'Abril Fatface', serif;
+    font-family: 'Raleway', serif;
     font-size: $large-font-size;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: $heading-spacing;
     margin-top: 0;
+    // text-shadow:  0 0 5px $sfg-purple;
+    text-shadow:  0 0 1px #fff, 0 0 5px $sfg-purple, 0 0 15px $sfg-purple;
   }
 
   .site-title .back-arrow { margin-right: 0.5rem; }
@@ -260,7 +262,11 @@ body {
 
   &.icon {
     text-decoration: none;
+  };
+  &.site-title {
+    text-decoration: none;
   }
+
 }
 
 #sidebar a.active {
