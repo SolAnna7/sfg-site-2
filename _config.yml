@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            SFG Projects
 tagline:          'Creating Video Games since 1873'
-description:      'A personal projects' site by <a href="https://solanna7.github.io/portfolio/">Hidvégi Anna</a>'
+description:      'A personal projects'' site by <a href="https://solanna7.github.io/portfolio/">Hidvégi Anna</a>'
 url:              https://fongandrew.github.io
 baseurl:          '/sfg-site-2'
                   # the optional subpath of your site, e.g. "/blog"
