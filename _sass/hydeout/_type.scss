@@ -42,9 +42,10 @@ p {
   margin-top: 0;
 }
 
-// strong {
-//   color: $sfg-purple;
-// }
+strong {
+  font-weight: 600;
+  color: #fff;
+}
 
 ul,
 ol,
@@ -137,4 +138,10 @@ a svg,
 
 .icon {
   vertical-align: middle;
+}
+
+figcaption {
+  padding: 2px;
+  text-align: center;
+  font-size: 70%;
 }
